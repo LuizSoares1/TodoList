@@ -1,69 +1,80 @@
-<h1>TODO App - Teste Prático</h1>
+# TODO App - Teste Prático
 
-    <h2>Visão Geral</h2>
-    <p>Este é um sistema de gestão de tarefas (Todo List) desenvolvido como teste prático para desenvolvedores. O sistema inclui um backend em Node.js, frontend em React, banco de dados MongoDB e está preparado para containerização com Docker.</p>
+## Visão Geral
+Este é um sistema de gestão de tarefas (Todo List) desenvolvido como teste prático para desenvolvedores. O sistema inclui um backend em Node.js, frontend em React, banco de dados MongoDB e está preparado para containerização com Docker.
 
-    <h2>Requisitos</h2>
-    <ul>
-        <li>Node.js 18+</li>
-        <li>Docker e Docker Compose</li>
-        <li>MongoDB (ou usar via Docker)</li>
-        <li>Git</li>
-    </ul>
+## Requisitos
 
-    <h2>Instalação Local</h2>
+- Node.js 18+
+- Docker e Docker Compose
+- MongoDB (ou usar via Docker)
+- Git
 
-    <h3>Backend</h3>
-    <pre><code>cd backend
+## Instalação Local
+
+### Backend
+
+```bash
+cd backend
 npm install
-npm run dev</code></pre>
+npm run dev
+```
 
-    <h3>Frontend</h3>
-    <pre><code>cd frontend
+### Frontend
+
+```bash
+cd frontend
 npm install
-npm start</code></pre>
+npm start
+```
 
-    <h3>Docker</h3>
-    <pre><code>docker-compose up --build</code></pre>
+### Docker
 
-    <h3>A aplicação estará disponível em:</h3>
-    <ul>
-        <li><strong>Frontend:</strong> <a href="http://localhost" target="_blank">http://localhost</a></li>
-        <li><strong>Backend:</strong> <a href="http://localhost:3001" target="_blank">http://localhost:3001</a></li>
-        <li><strong>MongoDB:</strong> mongodb://localhost:27017</li>
-    </ul>
+```bash
+docker-compose up --build
+```
 
-    <h2>Testes</h2>
+### A aplicação estará disponível em:
 
-    <h3>Backend</h3>
-    <pre><code>cd backend
-npm test</code></pre>
+- **Frontend:** [http://localhost](http://localhost)
+- **Backend:** [http://localhost:3001](http://localhost:3001)
+- **MongoDB:** `mongodb://localhost:27017`
 
-    <h3>Frontend</h3>
-    <pre><code>cd frontend
-npm test</code></pre>
+## Testes
 
-    <h2>Variáveis de Ambiente</h2>
+### Backend
 
-    <h3>Backend</h3>
-    <ul>
-        <li><code>MONGODB_URI</code>: URL de conexão do MongoDB</li>
-        <li><code>PORT</code>: Porta do servidor (padrão: 3001)</li>
-    </ul>
+```bash
+cd backend
+npm test
+```
 
-    <h3>Frontend</h3>
-    <ul>
-        <li><code>REACT_APP_API_URL</code>: URL da API backend</li>
-    </ul>
+### Frontend
 
-    <h2>Problemas Conhecidos</h2>
-    <ul>
-        <li>Configuração CORS para produção</li>
-        <li>Variáveis de ambiente não configuradas</li>
-        <li>Autenticação MongoDB</li>
-        <li>Build do frontend para produção</li>
-        <li>Configuração Nginx</li>
-    </ul>
+```bash
+cd frontend
+npm test
+```
 
-    <h2>Autor</h2>
-    <p>Desenvolvido para teste prático de contratação</p>
+## Variáveis de Ambiente
+
+### Backend
+
+- `MONGODB_URI`: URL de conexão do MongoDB
+- `PORT`: Porta do servidor (padrão: 3001)
+
+### Frontend
+
+- `REACT_APP_API_URL`: URL da API backend
+
+## Problemas Conhecidos
+
+- Configuração CORS para produção
+- Variáveis de ambiente não configuradas
+- Autenticação MongoDB
+- Build do frontend para produção
+- Configuração Nginx
+
+## Autor
+
+Desenvolvido para teste prático de contratação.
