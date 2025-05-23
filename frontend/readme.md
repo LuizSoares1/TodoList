@@ -51,16 +51,6 @@ npm test</code></pre>
 
   <hr>
 
-  <h2>Docker</h2>
-  <p>Para buildar e rodar o frontend com Docker:</p>
-  <pre><code>docker build -t todo-frontend .
-docker run -p 80:80 todo-frontend</code></pre>
-
-  <p>Ou, se estiver usando <code>docker-compose</code>:</p>
-  <pre><code>docker-compose up --build</code></pre>
-
-  <hr>
-
   <h2>Funcionalidades</h2>
   <ul>
     <li>✅ CRUD completo de tarefas (Criar, Listar, Atualizar, Excluir)</li>
