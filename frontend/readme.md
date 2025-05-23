@@ -54,7 +54,7 @@ npm test</code></pre>
   <h2>Funcionalidades</h2>
   <ul>
     <li>✅ CRUD completo de tarefas (Criar, Listar, Atualizar, Excluir)</li>
-    <li>✅ Filtro por status: <strong>All</strong>, <strong>Active</strong>, <strong>Completed</strong></li>
+    <li>✅ Filtro por status: <strong>All</strong>, <strong>Active</strong>, <strong>Review</strong>, <strong>Completed</strong></li>
     <li>✅ Interface responsiva (desktop e mobile)</li>
     <li>✅ Modal de edição com campos preenchidos</li>
     <li>✅ Estilização completa com Material UI</li>
